@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Welcome Magic';
+  src: url('Welcome Magic.otf') format('opentype');
+}
+
+.custom-font {
+  font-family: 'Welcome Magic', sans-serif;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 20px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  background: linear-gradient(120deg, #f09 0%, #0ff 50%, #9f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.8s ease-out;
+}
+
+.title:hover {
+  background-position: 100% 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-size: min(100vw, 40em);
+}
+
+html {
+  font-size: calc(100% + 0.5vw);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition-duration: 0.001s !important;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2em;
+}
+
+.input-group {
+  width: 100%;
+  max-width: 40em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.input-group__label {
+  padding: 0 0.5em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  letter-spacing: 0.1em;
+  color: rgba(255, 220, 255, 0.6);
+  cursor: pointer;
+}
+
+.input-group__input {
+  color: #000;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  border-style: none;
+  outline: none;
+  width: 100%;
+  padding: 0.8em 1em;
+  border: 0.25em solid transparent;
+  background-image: linear-gradient(#fff, #fff), linear-gradient(120deg, #f09 0%, #0ff 50%, #9f0 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border-radius: 1.8em;
+  background-size: 200% 100%;
+  transition: background-position 0.8s ease-out;
+  resize: none;
+}
+
+.input-group__input:hover {
+  background-position: 100% 0;
+}
+
+.input-group__input:focus {
+  outline: 2px dashed #ad2b89;
+  outline-offset: 0.5em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 1.8em;
+  background-image: linear-gradient(#800080, #dda0dd), linear-gradient(120deg, #800080 0%, #dda0dd 50%, #ee82ee 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  color: #fff;
+  transition: background-position 0.8s ease-out, transform 0.2s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 40px;
+}
+
+button:hover {
+  background-position: 100% 0;
+}
+
+button:active {
+  transform: scale(1.1);
+  transition: transform 0.1s;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.gauge-footer {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.emotion-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji {
+  font-size: 5em;
+}
+
+.emotion-score {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.result {
+  margin: 10px;
+  text-align: center;
+}
+
