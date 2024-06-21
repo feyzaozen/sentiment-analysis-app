@@ -3,7 +3,11 @@
 Bu proje, kullanıcıların metinlerindeki duyguları analiz etmelerine olanak tanıyan bir web uygulamasıdır. FastAPI kullanılarak oluşturulmuş bir backend ve React kullanılarak oluşturulmuş bir frontend içermektedir.
 
 ## Uygulama Çalışma Anı
-<iframe src="https://giphy.com/embed/ED22mJ52fgMtxn14mf" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ED22mJ52fgMtxn14mf">via GIPHY</a></p>
+
+
+https://github.com/feyzaozen/sentiment-analysis-app/assets/20270332/5b74aba9-ce3f-4394-b322-fc3d2ec8ed8c
+
+
 
 ## Özellikler
 
