@@ -50,11 +50,11 @@ Frontend, http://localhost:3000 adresinde çalışacaktır.
 
 ## Dosya Yapısı
 
-- backend/: FastAPI ile oluşturulmuş backend kodlarını içerir.
--- app.py: FastAPI uygulamasını ve duygu analizi endpoint'ini tanımlar.
-- frontend/: React ile oluşturulmuş frontend kodlarını içerir.
--- src/App.js: React bileşenlerini ve uygulama mantığını içerir.
--- src/App.css: Stil dosyalarını içerir.
+- `backend/`: FastAPI ile oluşturulmuş backend kodlarını içerir.
+    - `app.py`: FastAPI uygulamasını ve duygu analizi endpoint'ini tanımlar.
+- `frontend/`: React ile oluşturulmuş frontend kodlarını içerir.
+    - `src/App.js`: React bileşenlerini ve uygulama mantığını içerir.
+    - `src/App.css`: Stil dosyalarını içerir.
 
 ## Kullanım
 
