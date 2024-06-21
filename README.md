@@ -5,7 +5,8 @@ Bu proje, kullanıcıların metinlerindeki duyguları analiz etmelerine olanak t
 ## Uygulama Çalışma Anı
 
 
-https://github.com/feyzaozen/sentiment-analysis-app/assets/20270332/5b74aba9-ce3f-4394-b322-fc3d2ec8ed8c
+
+https://github.com/feyzaozen/sentiment-analysis-app/assets/20270332/6e1b7df7-1746-42db-8be4-3eef9307b190
 
 
 
